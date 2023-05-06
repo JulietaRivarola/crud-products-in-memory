@@ -6,17 +6,16 @@ API Reference
 
 This application exposes a REST API for managing products. The following endpoints are available:
 
-GET /products: Retrieves a list of all products. 
-POST /products: Creates a new product. 
-PUT /products/{id}: Updates the product with the specified ID. 
-DELETE /products/{id}: Deletes the product with the specified ID.
+- GET /products: Retrieves a list of all products.
+- POST /products: Creates a new product. 
+- PUT /products/{id}: Updates the product with the specified ID. 
+- DELETE /products/{id}: Deletes the product with the specified ID.
 
 Request Parameters
-
-id: The ID of the product to retrieve or update. 
-name: The name of the product to search for. 
-sortBy: The field to sort the results by. (default: "price") 
-order: The sort order (asc or desc). (default: "asc")
+- id: The ID of the product to retrieve or update. 
+- name: The name of the product to search for. 
+- sortBy: The field to sort the results by. (default: "price") 
+- order: The sort order (asc or desc). (default: "asc")
 
 Built With
 - Java
